@@ -3,10 +3,8 @@ name = "Pyth"
 version = "0.0.1"
 published-at = "0x00b53b0f4174108627fbee72e2498b58d6a2714cded53fac537034c220d26302"
 
-[dependencies.Sui]
-git = "https://github.com/MystenLabs/sui.git"
-subdir = "crates/sui-framework/packages/sui-framework"
-rev = "framework/mainnet"
+[dependencies]
+Sui = { local = "D:/envs/move/sui/sui/crates/sui-framework/packages/sui-framework" }
 
 [dependencies.Wormhole]
 local = "./wormhole"
